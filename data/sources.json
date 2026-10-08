@@ -1,0 +1,6 @@
+{
+  "dataset:Salesforce/wikitext": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "dataset:allenai/ai2_arc": "210d026faf9955653af8916fad021475a3f00453",
+  "model:Qwen/Qwen2.5-0.5B-Instruct": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "model:Qwen/Qwen2.5-1.5B-Instruct": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+}

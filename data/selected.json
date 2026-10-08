@@ -1,0 +1,634 @@
+{
+  "configs": [
+    {
+      "name": "mixed-top-16",
+      "rules": [
+        {
+          "bits": 4,
+          "group_size": 64,
+          "pattern": "model.layers.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.0.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.1.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.2.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.3.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.4.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.8.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.14.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.17.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.18.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.20.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.21.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.22.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.23.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.25.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.26.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.27.*"
+        }
+      ]
+    },
+    {
+      "name": "mixed-top-12",
+      "rules": [
+        {
+          "bits": 4,
+          "group_size": 64,
+          "pattern": "model.layers.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.0.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.1.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.2.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.3.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.4.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.8.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.14.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.17.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.23.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.25.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.26.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.27.*"
+        }
+      ]
+    },
+    {
+      "name": "mixed-top-8",
+      "rules": [
+        {
+          "bits": 4,
+          "group_size": 64,
+          "pattern": "model.layers.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.0.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.1.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.2.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.17.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.23.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.25.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.26.*"
+        },
+        {
+          "bits": 8,
+          "group_size": 64,
+          "pattern": "model.layers.27.*"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "data": {
+      "calibration_count": 128,
+      "chunk_size": 512,
+      "manifest_id": "c963c31975585f6d6d02c843624f783b6c800b61a4548e391a3e136b5b89e08f",
+      "manifest_sha256": "66a39320e063c7f1452fed910ee933710210682003b8563eb4d40848ea053feb",
+      "quick": false,
+      "test_count": 256
+    },
+    "hardware": {
+      "chip": "Apple M3 Pro",
+      "cpu_cores": 11,
+      "macos": "26.6.2",
+      "unified_memory_bytes": 19327352832
+    },
+    "implementation_sha256": "56c6e0889ed6496bcb52767e4910e1ab8bfa823ded47ec74a1e8eca16719b3ce",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "protocol": "quantlab-v1",
+    "versions": {
+      "datasets": "5.1.0",
+      "mlx": "0.32.3",
+      "mlx-lm": "0.32.0",
+      "numpy": "2.5.3",
+      "transformers": "5.19.0"
+    }
+  },
+  "frontier": [
+    {
+      "bytes": 3087428608,
+      "config": {
+        "name": "fp16",
+        "rules": []
+      },
+      "ppl": 13.903754243931521
+    },
+    {
+      "bytes": 1859120128,
+      "config": {
+        "name": "int8-g64",
+        "rules": [
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.*"
+          }
+        ]
+      },
+      "ppl": 13.904047176585188
+    },
+    {
+      "bytes": 1204022272,
+      "config": {
+        "name": "int4-g64",
+        "rules": [
+          {
+            "bits": 4,
+            "group_size": 64,
+            "pattern": "model.layers.*"
+          }
+        ]
+      },
+      "ppl": 15.157723965308168
+    },
+    {
+      "bytes": 1250814976,
+      "config": {
+        "name": "mixed-random-2-seed-0",
+        "rules": [
+          {
+            "bits": 4,
+            "group_size": 64,
+            "pattern": "model.layers.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.12.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.27.*"
+          }
+        ]
+      },
+      "ppl": 15.036004336071365
+    },
+    {
+      "bytes": 1297607680,
+      "config": {
+        "name": "mixed-top-4",
+        "rules": [
+          {
+            "bits": 4,
+            "group_size": 64,
+            "pattern": "model.layers.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.1.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.2.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.25.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.26.*"
+          }
+        ]
+      },
+      "ppl": 14.868772240417584
+    },
+    {
+      "bytes": 1344400384,
+      "config": {
+        "name": "mixed-top-6",
+        "rules": [
+          {
+            "bits": 4,
+            "group_size": 64,
+            "pattern": "model.layers.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.1.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.2.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.23.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.25.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.26.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.27.*"
+          }
+        ]
+      },
+      "ppl": 14.72525231951917
+    },
+    {
+      "bytes": 1391193088,
+      "config": {
+        "name": "mixed-top-8",
+        "rules": [
+          {
+            "bits": 4,
+            "group_size": 64,
+            "pattern": "model.layers.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.0.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.1.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.2.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.17.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.23.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.25.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.26.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.27.*"
+          }
+        ]
+      },
+      "ppl": 14.584788183796354
+    },
+    {
+      "bytes": 1484778496,
+      "config": {
+        "name": "mixed-top-12",
+        "rules": [
+          {
+            "bits": 4,
+            "group_size": 64,
+            "pattern": "model.layers.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.0.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.1.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.2.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.3.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.4.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.8.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.14.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.17.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.23.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.25.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.26.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.27.*"
+          }
+        ]
+      },
+      "ppl": 14.36364654420524
+    },
+    {
+      "bytes": 1578363904,
+      "config": {
+        "name": "mixed-top-16",
+        "rules": [
+          {
+            "bits": 4,
+            "group_size": 64,
+            "pattern": "model.layers.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.0.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.1.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.2.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.3.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.4.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.8.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.14.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.17.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.18.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.20.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.21.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.22.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.23.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.25.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.26.*"
+          },
+          {
+            "bits": 8,
+            "group_size": 64,
+            "pattern": "model.layers.27.*"
+          }
+        ]
+      },
+      "ppl": 14.187642252578552
+    }
+  ],
+  "ranking": [
+    1,
+    26,
+    2,
+    25,
+    27,
+    23,
+    0,
+    17,
+    14,
+    3,
+    8,
+    4,
+    21,
+    22,
+    20,
+    18,
+    19,
+    11,
+    12,
+    7,
+    24,
+    16,
+    10,
+    15,
+    9,
+    5,
+    13,
+    6
+  ],
+  "selection_split": "calibration"
+}

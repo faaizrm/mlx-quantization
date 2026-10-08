@@ -1,0 +1,55 @@
+{
+  "budget_blocks": [
+    8,
+    16
+  ],
+  "calibration_positions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "calibration_subset_sha256": "8aef05a1cbfb585ee44d0bc0372e37fc81746fc0c3aa2ddd0ffe1dcc1a5013bc",
+  "core_data": {
+    "calibration_count": 128,
+    "chunk_size": 512,
+    "manifest_id": "c963c31975585f6d6d02c843624f783b6c800b61a4548e391a3e136b5b89e08f",
+    "manifest_sha256": "66a39320e063c7f1452fed910ee933710210682003b8563eb4d40848ea053feb",
+    "quick": false,
+    "test_count": 256
+  },
+  "random_seeds": [
+    0,
+    1,
+    2
+  ],
+  "selection_split": "calibration"
+}

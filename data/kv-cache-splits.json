@@ -1,0 +1,38 @@
+{
+  "context_lengths": [
+    512,
+    2048,
+    8192
+  ],
+  "core_manifest_id": "c963c31975585f6d6d02c843624f783b6c800b61a4548e391a3e136b5b89e08f",
+  "core_manifest_sha256": "66a39320e063c7f1452fed910ee933710210682003b8563eb4d40848ea053feb",
+  "output_tokens": 128,
+  "seed": 20261007,
+  "splits": {
+    "calibration": {
+      "anchors": [
+        66432,
+        224512,
+        99712
+      ],
+      "source_split": "validation",
+      "token_count": 262337,
+      "tokens_sha256": "5589175bd3ba8ced31b19b38ddd60715ea7779fdd8b3653f73eb973ee44dc76a"
+    },
+    "test": {
+      "anchors": [
+        124672,
+        191232,
+        41472,
+        157952,
+        166272,
+        257792,
+        282752,
+        224512
+      ],
+      "source_split": "test",
+      "token_count": 299078,
+      "tokens_sha256": "b44603066a92719a20e2dc18d6c5f7f5342b1877c20c1e2bdd92deca662d3d56"
+    }
+  }
+}

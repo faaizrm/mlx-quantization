@@ -1,0 +1,22 @@
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+data/*.npy
+data/*.npz
+logs/
+.run.lock
+*.safetensors
+.DS_Store
+build/
+dist/
+
+# reports and pilot outputs are regenerated locally
+figures/*
+!figures/fine_grained_allocation.png
+results/*analysis*.jsonl
+results/*smoke*.jsonl
+results/generation.jsonl
+data/selected-smoke.json

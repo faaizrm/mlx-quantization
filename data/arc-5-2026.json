@@ -1,0 +1,20 @@
+{
+  "dataset": "allenai/ai2_arc",
+  "revision": "210d026faf9955653af8916fad021475a3f00453",
+  "split": "test",
+  "seed": 2026,
+  "indices": [
+    487,
+    1308,
+    2058,
+    2096,
+    420
+  ],
+  "ids": [
+    "NYSEDREGENTS_2010_8_34",
+    "Mercury_7163363",
+    "Mercury_7084088",
+    "MCAS_2005_5_14",
+    "Mercury_SC_415338"
+  ]
+}
